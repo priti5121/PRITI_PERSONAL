@@ -1,9 +1,4 @@
 
-
-# === Model & Embedder Load ===
-embedder = SentenceTransformer('all-MiniLM-L6-v2')
-cve_impact_model = RandomForestClassifier()
-
 class MitigationPlanner:
 
     def __init__(self):
