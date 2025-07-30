@@ -1,12 +1,4 @@
-# mitigation_planner.py
 
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-from sentence_transformers import SentenceTransformer, util
-from transformers import pipeline
-import networkx as nx
-import numpy as np
-import json
 
 # === Model & Embedder Load ===
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
